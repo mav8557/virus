@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+ workshop:
+   build: . 
+   image: virus:ubuntu
+   volumes:
+     - .:/code
