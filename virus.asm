@@ -75,7 +75,7 @@ RJMP = 4050                     ; holds jmp from end of virus to start of file
 ;;; virus constants
 VIRUS_STACK = 5000              ; number of stack bytes for virus activities
 GETDENTS_COUNT = 2048           ; number of bytes for storing directory entries
-VIRUS_IDENTIFIER = 0x0041534e   ; 'NSA', used to mark infected executables
+VIRUS_IDENTIFIER = 0x00434f52   ; 'ROC', used to mark infected executables
 GOBIN_IDENTIFIER = 0x00006f47   ; Go\x00\x00, PT_NOTE name field for Go binaries
 VIRUS_SIZE = 931                ; size of virus code, used to check if this is gen 0
 
